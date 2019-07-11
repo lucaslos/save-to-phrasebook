@@ -1,0 +1,21 @@
+{
+  "name": "Save to Phrasebook",
+  "version": "1.0",
+  "description": "Open a new tab to save the selected text and the sentence in Phrasebook",
+  "manifest_version": 2,
+  "incognito": "split",
+  "browser_action": {
+
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
