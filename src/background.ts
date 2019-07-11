@@ -1,7 +1,7 @@
 function openPopUp() {
   chrome.tabs.executeScript(
     {
-      file: "getSelection.js"
+      file: "/js/getSelection.js"
     },
     function([url]) {
       var width = 560;

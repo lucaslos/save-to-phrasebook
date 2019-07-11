@@ -5,20 +5,7 @@
   "tasks": [
     {
       "type": "npm",
-      "script": "dev",
-      "problemMatcher": [],
-      "runOptions": {
-        "runOn": "folderOpen"
-      }
-    },
-    {
-      "type": "npm",
       "script": "build",
-      "problemMatcher": []
-    },
-    {
-      "type": "npm",
-      "script": "validate-typescript",
       "problemMatcher": [
         "$tsc"
       ]

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "add-to-phrasebook",
   "scripts": {
-    "watch": "webpack --config webpack/webpack.dev.js --watch",
-    "build": "webpack --config webpack/webpack.prod.js",
+    "watch": "tsc --watch",
+    "build": "tsc",
     "clean": "rimraf dist"
   },
   "author": "Lucas Santos",
@@ -13,9 +13,6 @@
     "type": "git",
     "url": "https://github.com/chibat/chrome-extension-typescript-starter.git"
   },
-  "dependencies": {
-
-  },
   "devDependencies": {
     "@types/chrome": "^0.0.86",
     "copy-webpack-plugin": "^5.0.3",
@@ -23,6 +20,7 @@
     "ts-loader": "^6.0.4",
     "typescript": "^3.5.3",
     "webpack": "~4.35.3",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.5",
+    "webpack-merge": "~4.2.1"
   }
 }
