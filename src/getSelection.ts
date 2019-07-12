@@ -37,7 +37,7 @@
     const sentence = sel.toString();
 
     if (selection && sentence) {
-      url = `http://localhost:5000/?front=${encodeURI(
+      url = `https://lucassantos.net/phrasebook/?front=${encodeURI(
         selection,
       )}&sentence=${encodeURI(sentence)}`;
     }
