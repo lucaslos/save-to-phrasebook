@@ -32,7 +32,7 @@
         sel.modify('extend', direction[0], 'sentence');
         const sentence = sel.toString();
         if (selection && sentence) {
-            url = `http://localhost:5000/?front=${encodeURI(selection)}&sentence=${encodeURI(sentence)}`;
+            url = `https://lucassantos.net/phrasebook/?front=${encodeURI(selection)}&sentence=${encodeURI(sentence)}`;
         }
     }
     return url;
