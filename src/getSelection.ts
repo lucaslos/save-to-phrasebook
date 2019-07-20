@@ -1,7 +1,7 @@
 (() => {
   console.log('save-in-phrasebook v1.0.0');
 
-  let url = 'http://localhost:5000/';
+  let url = 'https://lucassantos.net/phrasebook/';
 
   // code goes here
   const sel = window.getSelection();
